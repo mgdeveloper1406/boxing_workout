@@ -1,4 +1,5 @@
-let exercises = ["shadowboxing", "run", "mitt work", "bag work", "sprints", "squats"];
+let exercises = ["shadowboxing", "run", "mitt work", "bag work", "sprints", "squats", "jumprope"];
+exercises = exercises.sort();
 let repTypes = ["reps","miles", "rounds"];
 
 let exerciseSelect = document.getElementById('exerciseSelect');
