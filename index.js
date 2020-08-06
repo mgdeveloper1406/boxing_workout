@@ -33,7 +33,7 @@ function addExercise(){
     let numReps = repCount.value;
     let rep = repType.value;
 
-    if(exerciseList.selectedIndex != 0 && repType.selectedIndex != 0) {
+    if(exerciseList.selectedIndex != 0 && repType.selectedIndex != 0 && repCount.valueAsNumber > 0) {
         let returnString = exercise + " x " + numReps + " " + rep;
         entry.appendChild(document.createTextNode(returnString));
         exerciseList.appendChild(entry);
