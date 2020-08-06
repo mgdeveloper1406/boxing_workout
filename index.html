@@ -8,11 +8,27 @@
     <body>
         <div class="content">
             <h1>Boxing Workout Creator</h1>
-                <label for="exerciseSelect">Choose a workout: </label>
-                <select id="exerciseSelect">
-                    <option>Choose a workout</option>
-                </select>
-                <button class="addButton" onclick=addExercise()>Add Exercise</button>
+                <div>
+                    <label for="exerciseSelect">Choose a workout: </label>
+                    <select id="exerciseSelect">
+                        <option>Choose a workout</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="repCount">Rep Count: </label>
+                    <input id="repCount" type="number">
+                    <select id="repType">
+                        <option>Rep Type</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <button class="addButton" onclick=addExercise()>Add Exercise</button>
+                </div>
+                
 
                 <div>
                     <ol id="exerciseList">      
